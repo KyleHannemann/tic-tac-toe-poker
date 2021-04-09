@@ -13,6 +13,10 @@
     <h1>Tic Tac Toe Board!</h1>
   </nav>
   <main>
+    <button id="newGame">Start New Game</button>
+    <input type="text" id="player1" placeholder="player O Name">
+    <input type="text" id="player2" placeholder="player X Name">
+
     <table>
       <tr class="row">
         <td id="0" onclick="play(0)"></td>
@@ -30,10 +34,17 @@
         <td id="8" onclick="play(8)"></td>
       </tr>
     </table>
-    <span>Player </span>
-    <span id="player">X</span>
+    <div id="text">
+    <span id="playerName">Player </span>
     <span>'s turn</span>
+    <span>"</span>
+    <span id="player">X</span>
+    <span>"</span>
+    </div>
   </main>
+  <script src="index.js">
+
+  </script>
 </body>
 
 </html>

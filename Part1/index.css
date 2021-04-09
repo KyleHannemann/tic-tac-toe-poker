@@ -3,6 +3,38 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
+  #newGame{
+      height: 50px;
+      width: 100px;
+      margin-left: 10vw;
+      margin-top: 5vh;
+      margin-right: 5vw;
+      background-color: white;
+      color: green;
+      transition: 1s;
+      box-shadow: 2px 2px 2px;
+  }
+  #newGame:hover{
+      background-color:green;
+      color: white
+  }
+  input{
+      margin-left: 5vw;
+      height: 30px;
+      width: 150px;
+  }
+  #text{
+      width: 100%;
+
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+
+  }
+  #text > span{
+      font-size: 24px;
+  }
 
   nav {
       height: 15vh;
