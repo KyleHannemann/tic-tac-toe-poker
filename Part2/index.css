@@ -7,6 +7,27 @@
 body {
   background: #eee;
 }
+.wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrapper > input{
+  height: 25px;
+  width: 150px;
+  font-size: 18x;
+  box-shadow: 2px 2px 10px;
+}
+.wrapper > button{
+  height: 25px;
+  width: 100px;
+  font-size: 18px;
+  box-shadow: 2px 2px 10px;
+  background-color: rgb(50, 155, 241);
+}
+.wrapper > button:hover{
+  background-color: chartreuse;
+}
 
 header {
   height: 15vh;

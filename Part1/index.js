@@ -101,7 +101,7 @@ function gameWon(player){
     alert(winner +"won the game")
     let boxes = document.querySelectorAll("td");
     for (var i = 0; i < boxes.length; i++){
-        
+        boxes[i].innerHTML = "";
         boxes[i].dataset.played = "true";
     }
     playerXsquares = [];
